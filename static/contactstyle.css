@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 29px 10px;
+    background-color:  #525252;
+    height: 87vh;
+}
+.container h1{
+    font-size: 52px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: white;
+    padding: 16px;
+}
+.myinput{
+    width: 60%;
+    padding: 11px 20px;
+    margin: 11px 13px;
+    font-size: 21px;
+    border: 2px solid #e49090;
+    border-radius: 19px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+.btn{
+    width: 136px;
+    height: 48px;
+    padding: 5px 11px;
+    margin: 15px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid #e47575;
+    color: black;
+    border-radius: 21px;
+    cursor: pointer;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.btn:hover{
+    color: white;
+    background-color:black;
+}
